@@ -10,12 +10,16 @@ bcrypt - A library for hashing passwords.
 ----------------------------------------------------------------------------------------------------------------
 
 -------------------------------------- F I L E S    A N D    D I R E C T O R I E S -----------------------------
+
+----------------------------------------------------------------------------------------------------------------
 /app.py - The main application file containing the Flask routes and database connection logic.
 /templates/ - Directory containing HTML templates for the application.
 /static/css/ - Directory containing static CSS files, including Bootstrap.
 ----------------------------------------------------------------------------------------------------------------
 
 -------------------------------------- F L A S K    R O U T E S -----------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------
 / - User login page.
 /signup - User signup page.
 /dashboard - User dashboard displaying personal information.
@@ -26,6 +30,8 @@ bcrypt - A library for hashing passwords.
 ----------------------------------------------------------------------------------------------------------------
 
 -------------------------------------- M Y S Q L    C O N T E N T S --------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------
 CREATE DATABASE IF NOT EXISTS pims_db;
 USE pims_db;
 
@@ -47,6 +53,8 @@ CREATE TABLE IF NOT EXISTS personal_info (
 ----------------------------------------------------------------------------------------------------------------
 
 -------------------------------------- H O W    T O    R U N ---------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------
 1. Install the required Python packages:
 pip install flask mysql-connector-python bcrypt
 
@@ -57,5 +65,6 @@ pip install flask mysql-connector-python bcrypt
 python app.py
 
 
-4. Open your web browser and navigate to `http://127.0.0.1:5000/` or what you can see in the flask terminal IP of link to access the application.
+4. Open your web browser and navigate to `http://127.0.0.1:5000/` or what you can see in the flask terminal IP
+   of link to access the application.
 ----------------------------------------------------------------------------------------------------------------
